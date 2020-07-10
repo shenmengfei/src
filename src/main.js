@@ -3,6 +3,22 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+
+//引入vant组件信息
+import vant from "vant";
+import "vant/lib/index.css";
+
+Vue.use(vant);
+Vue.prototype.$axios = axios;
+
+
+import { Swipe, SwipeItem } from 'vant';
+
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+
+
 
 Vue.config.productionTip = false
 
