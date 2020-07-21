@@ -6,8 +6,9 @@
     const homee = [
         //注册页面的路由
         {
-            path: "/shop/home",
+            path: "/home",
             name: "home",
+         
             component: home,
         }
     ];
